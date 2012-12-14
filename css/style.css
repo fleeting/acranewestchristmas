@@ -1,0 +1,414 @@
+/* @group reset */
+/* http://meyerweb.com/eric/tools/css/reset/ | v2.0 | 20110126 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* @end */
+
+/* @group fonts */
+
+@font-face {
+    font-family: 'ChristmasCardII';
+    src: url('../fonts/chrici__-webfont.eot');
+    src: url('../fonts/chrici__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/chrici__-webfont.woff') format('woff'),
+         url('../fonts/chrici__-webfont.ttf') format('truetype'),
+         url('../fonts/chrici__-webfont.svg#ChristmasCardII') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* @end */
+
+/* @group structure */
+
+html {
+	overflow-y: scroll;
+}
+
+body {
+	background: #d2eef8 url(../images/bg.jpg) no-repeat top center;
+	font: 62.5% "Arial", Verdana, sans-serif;
+	color: #333;
+	text-align: left;
+	width: 960px;
+	height: 800px;
+	margin: 0 auto;
+}
+
+/* @end */
+
+/* @group header */
+
+[role="banner"] {
+	width: 100%;
+	margin: 35px 0 0;
+	position: relative;
+}
+
+[role="banner"] hgroup {
+	background: url(../images/burst.png) no-repeat top center;
+	padding-top: 135px;
+	margin: -145px 130px 0 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-shadow: -1px -1px 0px #84acbb;
+	filter: dropshadow(color=#84acbb, offx=-1, offy=-1);
+}
+
+[role="banner"] h1 {
+	color: #9fcfdf;
+	font: 7.0em "ChristmasCardII";
+}
+
+[role="banner"] h2 {
+	color: #9fcfdf;
+	font: 5.0em "ChristmasCardII";
+	text-align: right;
+	margin: -32px 0 0 0;
+	position: relative;
+}
+
+[role="banner"] h2 span {
+	font-size: 0.7em;
+	position: relative;
+	top: -20px;
+}
+
+
+/* @end */
+
+/* @group content */
+
+[role="main"] {
+	width: 796px;
+	height: 518px;
+	float: left;
+	margin: 125px 0 0 150px;
+	position: relative;
+}
+
+[role="main"] .wrapper {
+	background: url(../images/scroll.png) no-repeat;
+	width: 796px;
+	height: 518px;
+	float: left;
+}
+
+.main a:link, .main a:active, .main a:visited {
+	color: #;
+	text-decoration: none;
+}
+
+.main a:focus {
+	outline: thin dotted;
+}
+
+.main a:hover {
+	color: #;
+	text-decoration: underline;
+}
+
+.main .huge, .main h2 {
+	font-size: 3.0em;
+	padding: 5px 0 10px;
+} 
+
+.main .large, .main h3 {
+	font-size: 2.6em;
+	padding: 5px 0 10px;
+} 
+
+.main .bigger, .main h4 {
+	font-size: 2.2em;
+	padding: 5px 0 10px;
+}
+
+.main h5 {
+	font-size: 1.9em;
+	padding: 5px 0 8px;
+}
+
+.main h6 {
+	font-size: 1.6em;
+	padding: 5px 0 8px;
+}
+
+.main p, .main blockquote {
+	margin-bottom: 20px;
+	font-size: 1.4em;
+	line-height: 1.4em;
+}
+
+.main ul {
+	margin: 0 0 15px 30px;
+}
+
+.main ul li {
+	list-style-type: square;
+}
+
+.main ol {
+	margin: 0 0 15px 30px;
+	list-style-type: decimal;
+}
+
+.main ol li {
+	list-style-type: decimal;
+}
+
+.main li {
+	margin-bottom: 5px;
+	font-size: 1.3em;
+	line-height: 1.4em;
+}
+
+.main li li {
+	font-size: 1em;
+}
+
+#snowdrift {
+	background: url(../images/snowdrift.png) no-repeat 0 0;
+	width: 759px;
+	height: 254px;
+	position: absolute;
+	bottom: -130px;
+	left: -350px;
+}
+
+#pinecone {
+	background: url(../images/pinecone.png) no-repeat 0 0;
+	width: 134px;
+	height: 133px;
+	position: absolute;
+	bottom: -25px;
+	right: 70px;
+}
+
+#smokeSpawn {
+	position: absolute;
+	top: 135px;
+	left: -140px;
+}
+
+.puff {
+	position: absolute;
+	width: 0;
+	height: 0;
+}
+
+#playerControl {
+	position: absolute;
+	bottom: 60px;
+	left: 0;
+	width: 24px;
+	height: 32px;
+	cursor: pointer;
+}
+
+#playerControl.play {
+	background: url(../images/play-icon.png) no-repeat 0 0;	
+}
+
+#playerControl.pause {
+	background: url(../images/pause-icon.png) no-repeat 0 0;
+}
+
+#play {
+	font: 9.0em "ChristmasCardII";
+	color: #67492e;
+	margin: 170px 0 0 95px;
+	display: block;
+}
+
+.main article {
+	font: 3.4em "ChristmasCardII";
+	color: #67492e;
+	margin: 95px 0 0 85px;
+	display: none;
+}
+
+#verse-10 {
+	font-size: 2.7em;
+}
+
+/* @end */
+
+/* @group footer */
+
+footer {
+	margin: 100px 0 75px;
+	width: 100%;
+	float: left;
+	clear: both;
+}
+
+footer p {
+	color: #81bed4;
+	font-size: 1.5em;
+	font-family: "Georgia";
+	text-align: center;
+	line-height: 1.8;
+}
+
+/* @end */
+
+/* @group misc */
+
+.clear {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	height: 0;
+}
+
+/* Hide from browsers */
+.hide, [hidden] {
+	display: none;
+}
+
+/* Hide from browsers & screenreaders */
+.hidden {
+	display: none;
+	visibility: hidden;
+}
+
+/* Hide from browsers, available to screenreaders */
+.visuallyHidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+/* Hide from browsers & screenreaders, maintain layout */
+.invisible { 
+	visibility: hidden;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+pre, code, kbd, samp {
+	font-family: monospace, sans-serif;
+}
+
+strong, b, th {
+	font-weight: bold;
+}
+
+em, i {
+	font-style: italic;
+}
+
+pre { 
+  padding: 15px; 
+  white-space: pre; /* CSS2 */
+  white-space: pre-wrap; /* CSS 2.1 */
+  white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+  word-wrap: break-word; /* IE */
+}
+
+::-moz-selection {
+	background: #62aaf2;
+	color:#fff;
+	text-shadow: none;
+}
+
+::selection {
+	background:#62aaf2;
+	color:#fff;
+	text-shadow: none;
+}
+
+img {
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+	vertical-align: middle;
+}
+
+svg:not(:root) {
+	overflow: hidden;
+}
+
+audio:not([controls]) {
+	display: none;
+}
+
+/* @end */
+
+@media only screen and (min-width: 480px) {
+  /* Style adjustments for viewports 480px and over go here */
+}
+
+@media only screen and (min-width: 768px) {
+  /* Style adjustments for viewports 768px and over go here */
+}
+
+@media print {
+	* { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; }
+	a, a:visited { text-decoration: underline; }
+	a[href]:after { content: " (" attr(href) ")"; }
+	abbr[title]:after { content: " (" attr(title) ")"; }
+	.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
+	pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+	thead { display: table-header-group; }
+	tr, img { page-break-inside: avoid; }
+	img { max-width: 100% !important; }
+	@page { margin: 0.5cm; }
+	p, h2, h3 { orphans: 3; widows: 3; }
+	h2, h3 { page-break-after: avoid; }
+}

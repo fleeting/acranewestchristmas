@@ -1,20 +1,67 @@
-/* the humans responsible & colophon */
-/* humanstxt.org */
+# The humans responsible & technology colophon
+# humanstxt.org
 
 
-/* TEAM */
-  Web Developer: James Fleeting
-  Twitter: @twofivethreetwo
-  Location: Wichita Falls, Texas
-  
-  Graphic Designer: Blaine Bowers
-  Twitter: @flyingnowhere
-  Location: Wichita Falls, Texas
+# TEAM
 
-/* THANKS */
-  Names (& URL): 
+    # THE CRANE | WEST HUMANS #
+    James Fleeting -- Front-end Developer -- @twofivethreetwo
+    Blaine Bowers  -- Graphic Designer -- @flyingnowhere
 
-/* SITE */
-  Standards: HTML5, CSS3
-  Components: Modernizr, jQuery, Popcorn.js, Drought
-  Software: 
+# THANKS
+
+    Santa Claus -- North Pole
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr, Drought
+
+
+                                 ZZ
+                               ZZZZZZ
+                               Z8ZZZZZ
+                             ZZ    ZZZ
+                            Z      ZZZ
+                                   ZZ
+                                   ZZ
+                                   ZZ
+                                  ZZ
+                                  ZZ
+                                  ZZ
+                                 ZZZ
+                                 ZZZ
+    Z                            ZZZZ                                     Z
+      Z$                        ZZZZZ                                  $Z
+        ZZZ                     ZZZZZZ                              ZZZ
+          ZZZ                   ZZZZZZZ                           ZZZ
+           ZZZZ                 ZZZZZZZZ                        ZZZZ
+             ZZZ                 ZZZZZZZZ                      ZZZ
+              ZZZZ               ZZZZZZZZZ                   ZZZZ
+               ZOZZ              ZZZZZZZZZZ                 ZOZZ
+                ZZOZ              ZZZZZZZZZZ               ZOZZ
+                 ZZZZ             ZZZZZZZZZZZ             $ZZZ
+                  ZZZZ             ZZZZZZZZZZZZ          ZZZZ
+                   ZZMZ              ZZZZZZZZZZZ        ZZMZ
+                   ZMZZ               ZZZZZZZZZZZ      ZMZZN
+                    ZZMZ              ZZZZZZZZZZZZ     ZZMZ
+                     ZZZZ             Z  Z     ZZZ    ZZZZ
+                      ZZMZ           ZZ  ZZ      ZZ  ZZMZ
+                      ZZZZ           Z    Z       Z  ZZZZ
+                       ZZMZ         Z     ZZ        ZZMZ
+                       ZZMZ         Z      Z        ZZMZ
+                        ZZZZ       ZN      Z       ZZZZ
+                        ZZMZ       Z        Z      ZZMZ
+                         ZZMZ     Z         Z     ZZMZ
+                         ZZZZ     Z          Z    ZZZZ
+                          ZMZ    Z           Z    ZMZ
+                          ZZZZ   Z            Z  ZZZZ
+                          ZZZZ  Z             Z  ZZZZ
+                           ZMZ  Z             ZZ ZMZ
+                           ZMZMZ               ZMZMZ
+                           ZZZZZ               ZZZZZ
+                            ZMZ                 ZMZ
+
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMM http://crane-west.com | Wichita Falls, Texas MMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM

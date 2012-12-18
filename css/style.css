@@ -9,8 +9,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -23,7 +23,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -156,12 +156,12 @@ body {
 .main .huge, .main h2 {
 	font-size: 3.0em;
 	padding: 5px 0 10px;
-} 
+}
 
 .main .large, .main h3 {
 	font-size: 2.6em;
 	padding: 5px 0 10px;
-} 
+}
 
 .main .bigger, .main h4 {
 	font-size: 2.2em;
@@ -251,7 +251,7 @@ body {
 }
 
 #playerControl.play {
-	background: url(../images/play-icon.png) no-repeat 0 0;	
+	background: url(../images/play-icon.png) no-repeat 0 0;
 }
 
 #playerControl.pause {
@@ -289,10 +289,14 @@ footer {
 
 footer p {
 	color: #81bed4;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	font-family: "Georgia";
 	text-align: center;
 	line-height: 1.8;
+}
+
+footer a {
+	color: #3a81a9;
 }
 
 /* @end */
@@ -330,7 +334,7 @@ footer p {
 }
 
 /* Hide from browsers & screenreaders, maintain layout */
-.invisible { 
+.invisible {
 	visibility: hidden;
 }
 
@@ -354,8 +358,8 @@ em, i {
 	font-style: italic;
 }
 
-pre { 
-  padding: 15px; 
+pre {
+  padding: 15px;
   white-space: pre; /* CSS2 */
   white-space: pre-wrap; /* CSS 2.1 */
   white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */

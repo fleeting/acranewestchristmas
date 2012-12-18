@@ -4,7 +4,7 @@
 /* variables */
 @bgColor: #f1f1f1;
 @textColor: #d1d1d1;
-@linkColor: #049cdb;
+@linkColor: #61758f;
 @linkColorHover: darken(@linkColor, 05%);
 
 /* structure */
@@ -36,10 +36,10 @@ body {
 }
 
 .chromeframe {
-	background: darken(@bgColor, 25%);
-	color: @textColor;
-	margin: 0.2em 0;
-	padding: 0.2em 0;
+	background: #000;
+	color: #fff;
+	margin: 10px 0;
+	padding: 10px 20px;
 }
 
 /* base */
@@ -102,7 +102,7 @@ a:hover {
 /* main */
 
 .snowfall-flakes {
-	opacity: 0.4;
+	opacity: 0.3;
 }
 
 .sky {
@@ -135,7 +135,7 @@ a:hover {
 .ground {
 	position: relative;
 	height: 600px;
-	padding-top: 245px;
+	padding-top: 230px;
 	background: url(/images/trees.png) repeat-x top center;
 
 	.wrapper {
@@ -154,6 +154,8 @@ a:hover {
 		right: 0;
 		width: 200px;
 		opacity: 0.17;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=17)";
+		filter: alpha(opacity=17);
 	}
 }
 
@@ -165,18 +167,6 @@ a:hover {
 	position: absolute;
 	top: 0;
 	right: 25px;
-}
-
-/* footer */
-
-[role="contentinfo"] {
-	margin: 25px auto;
-	width: 960px;
-
-	p {
-		color: lighten(@textColor, 40%);
-		font-size: 0.8em;
-	}
 }
 
 /* misc */
